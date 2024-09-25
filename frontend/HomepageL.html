@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="HomepageL.css">
+        <title>Fehlzeiten Verwaltung (Lehrkraft)</title>
+
+        <script>
+            function openClass(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <div class="tab">
+                <button class="tablinks" onclick="openClass(event, 'FI224')">FI224</button>
+                <button class="tablinks" onclick="openClass(event, 'FS224')">FS224</button>
+                <button class="tablinks" onclick="openClass(event, 'BF224')">BF224</button>
+            </div>
+        
+            <div id="FI224" class="tabcontent">
+                <table>
+                    <tr>
+                        <th>FI224</th>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Rühl, Markus</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Bumstead, Chris</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Coleman, Ronnie</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Cutler, Jay</a></td>
+                    </tr>
+                </table>
+            </div>
+        
+            <div id="FS224" class="tabcontent">
+                <table>
+                    <tr>
+                        <th>FS224</th>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Baingo, Finn</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Disselnmeyer, Leon</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Obergöker, Sina</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Rubusch, Julian</a></td>
+                    </tr>
+                </table>
+            </div>
+        
+            <div id="BF224" class="tabcontent">
+                <table>
+                    <tr>
+                        <th>BF224</th>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Christiansen, Christian</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Leopold, Leo</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Mustermann, Max</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Fehlzeit-Check.html" onclick="window.open(this.href, 'Fenstername', 'width=500, height=600, left=500, top=75'); return false">Olafsen, Olaf</a></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+</html> 

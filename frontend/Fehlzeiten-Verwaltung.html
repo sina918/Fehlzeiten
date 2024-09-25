@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Login.css">
+        <title>Login</title>
+        <script>
+            console.log('TEST'); 
+            function login() {
+                console.log('TesT');
+                const username = document.getElementById(username)
+                const password = document.getElementById(password)
+                console.log('test' + username, password)
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="header">Login</div>
+        </header>
+        <main>
+            <div id="Login-Mask">
+                <div class="child">
+                    <label for="username">Username:</label>
+                    <input id="username" type="text" placeholder="Username" name="username">
+                    <p></p>
+                    <label for="password">Password:</label>
+                    <input type="password" placeholder="Passwort" name="password"><br>
+                    <button id="Login" onclick="login()"><a href="Homepage_Schueler.html">Login</a></button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

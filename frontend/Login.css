@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+button {
+    height: 2em;
+    width: 8em;
+    border: none;
+
+    background-color: #699dec;
+    color: white;
+    opacity: 0.8;
+    
+    margin-top: 5em;
+
+    cursor: pointer;
+}
+
+button:hover {
+    height: 2em;
+    width: 8em;
+    border: none;
+
+    background-color: #699dec;
+    color: white;
+    opacity: 1;
+    
+    margin-top: 5em;
+
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    height: 2em;
+    width: 12em;
+    
+    margin-top: 0.4em;
+    box-sizing: border-box;
+    
+    border: 0.1em solid blue;
+    border-radius: 5%;
+}
+
+.child{
+    height: 14em;
+    width: 90%;
+
+    background-color: blueviolet;
+
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    left: 5%;
+    top: 12.5%;
+}
+
+.header {
+    height: 3em;
+    width: 100%;
+    
+    background-color: cornsilk;
+    color: black;
+
+    line-height: 3em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#Login-Mask {
+    height: 18em;
+    width: 20%;
+
+    margin-left: 30em;
+
+    background-color: pink;
+
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: 15.5%
+}

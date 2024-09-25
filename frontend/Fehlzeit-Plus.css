@@ -1,0 +1,17 @@
+b {
+    color: crimson;
+}
+
+input[type=date] {
+    background-color: none;
+}
+
+input[type=number] {
+    height: 1.6em;
+    width: 2.8em;
+
+    padding: 1%;
+
+    border-radius: 12px;
+}
+
